@@ -1,0 +1,30 @@
+.navbar {
+    background-color: #ea8fea;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    color: #eee;
+}
+
+.btn:hover {
+    color: #674188;
+    cursor: pointer;
+}
+
+.btn1 {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.Active {
+    transform: scale(1.3);
+    transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 600px) {
+    .btn {
+        font-size: 1rem;
+    }
+}
