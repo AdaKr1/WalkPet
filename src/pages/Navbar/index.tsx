@@ -1,8 +1,8 @@
 import React from "react";
-import { NavbarBrand} from "react-bootstrap";
+import { NavbarBrand} from "reactstrap";
 import { Link } from "react-router-dom";
 
-import "./Navbar.css";
+import "./index.css";
 
 const Navbar = () => {
   return (
