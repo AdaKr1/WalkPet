@@ -1,0 +1,26 @@
+.home {
+    background-color: #ea8fea;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin-right: 5%;
+}
+
+.btn {
+   margin: 3% 5% 3% 0;
+}
+
+.btn-d:hover {
+    color: #ea8fea;
+    background-color: #333;
+}
+
+.btn-l:hover {
+    color: #ea8fea;
+    background-color: #fff;
+}
+
