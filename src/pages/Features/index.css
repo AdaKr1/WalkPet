@@ -1,0 +1,17 @@
+.container {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+}
+
+.main {
+    color: #333;
+    font-size: 24px;
+    margin: 16px;
+}
+
+.secondary {
+    color: #8f8f8f;
+    font-size: 16px;
+}

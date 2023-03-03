@@ -3,6 +3,7 @@ import { Button } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faB } from "@fortawesome/free-solid-svg-icons";
 
+import iphone6 from "./"
 import "./index.css";
 
 const Homepage = () => {
@@ -21,9 +22,9 @@ const Homepage = () => {
           Dowload
         </Button>
       </div>
-      {/* <div className="img">
-        <img ></img>
-      </div> */}
+      <div className="img">
+        <img className="title-img" src="iphone6" alt="Image"></img>
+      </div>
     </div>
   );
 };

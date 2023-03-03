@@ -24,3 +24,10 @@ h1 {
     background-color: #fff;
 }
 
+.title-img {
+    width: 250px;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
