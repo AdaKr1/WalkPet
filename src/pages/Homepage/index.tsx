@@ -14,11 +14,11 @@ const Homepage = () => {
       </div>
       <div className="btn">
         <Button color="secondary" className="btn-d">
-          {/* <FontAwesomeIcon icon={["faB", "fa-apple"]} /> */}
+          <FontAwesomeIcon icon="apple" />
           Dowload
         </Button>
         <Button color="secondary" outline className="btn-l">
-          {/* <FontAwesomeIcon icon={["faB", "google-play"]} /> */}
+          <FontAwesomeIcon icon="google-play" />
           Dowload
         </Button>
       </div>
