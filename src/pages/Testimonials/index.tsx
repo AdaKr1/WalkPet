@@ -16,19 +16,19 @@ import lady from "./";
 const items = [
   {
     id: 1,
-    altText: "I love to go on walks with my new buddies.",
-    caption: "Slide 1",
+    altText: "Mia",
+    caption: "I love to go on walks with my new buddies.",
   },
   {
     id: 2,
-    altText:
+    altText: "Amanda",
+    caption:
       "My cat is much more happier since she made new friends via WalkPet.",
-    caption: "Slide 2",
   },
   {
     id: 3,
-    altText: "Even lizards can have friends!",
-    caption: "Slide 3",
+    altText: "Slizo",
+    caption: "Even lizards can have friends!",
   },
 ];
 
@@ -72,14 +72,7 @@ function Testimonials() {
   });
 
   return (
-    <div>
-      <style>
-        {`.custom-tag {
-              max-width: 100%;
-              height: 500px;
-              background: black;
-            }`}
-      </style>
+    <div className="carousel">
       <Carousel activeIndex={activeIndex} next={next} previous={previous}>
         <CarouselIndicators
           items={items}
