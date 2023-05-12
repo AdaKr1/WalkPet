@@ -1,7 +1,8 @@
 .home {
-    background-color: #ea8fea;
+    background-color: #F7965E;
     color: #fff;
     display: flex;
+    padding-left: 50px;
     justify-content: center;
     align-items: center;
 }
@@ -11,23 +12,23 @@ h1 {
 }
 
 .btn {
-   margin: 3% 5% 3% 0;
+    margin: 3% 5% 3% 0;
 }
 
 .btn-d:hover {
-    color: #ea8fea;
+    color: #F7965E;
     background-color: #333;
 }
 
 .btn-l:hover {
-    color: #ea8fea;
+    color: #F7965E;
     background-color: #fff;
 }
 
 .title-img {
-    width: 250px;
-    transform: rotate(25deg);
+    width: 200px;
+    transform: rotate(20deg);
     position: absolute;
-    right: 25%;
+    right: 15%;
+    bottom: 30%;
 }
-

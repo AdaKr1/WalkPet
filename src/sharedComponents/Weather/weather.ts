@@ -1,4 +1,4 @@
-[
+const weather = [
   {
     "coord": {
         "lon": -0.1257,
@@ -219,3 +219,5 @@
   "cod": 200
 }
 ]
+
+export default weather;

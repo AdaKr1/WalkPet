@@ -5,6 +5,7 @@ import Homepage from "./pages/Homepage";
 import Features from "./pages/Features";
 import Weather from "./sharedComponents/Weather";
 import Testimonials from "./pages/Testimonials";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Features />
         <Testimonials />
         <Weather />
+        <Contact />
       </div>
     </div>
   );

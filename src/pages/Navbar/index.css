@@ -1,5 +1,5 @@
-.nav{
-    background-color: #ea8fea;
+.nav {
+    background-color: #F7965E;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,7 +10,7 @@
 }
 
 .btn:hover {
-    color: #674188;
+    color: #F7695E;
     cursor: pointer;
 }
 

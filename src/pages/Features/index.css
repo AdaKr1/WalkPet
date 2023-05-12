@@ -3,6 +3,7 @@
     text-align: center;
     background-color: #fff;
     position: relative;
+    justify-content: center;
 }
 
 .main {
@@ -14,4 +15,14 @@
 .secondary {
     color: #8f8f8f;
     font-size: 16px;
+}
+
+.fa-solid {
+    color: #F7965E;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+.fa-solid:hover {
+    color: #F7695E;
 }
